@@ -1,0 +1,314 @@
+*{
+   color: black;
+}
+.forMen-info-section{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 5em;
+   background: linear-gradient(to right, rgba(162, 107, 4, 0.552), rgba(250, 171, 25, 0.338)),
+               url('images/photo-1599662875272-64de8289f6d8-removebg-preview.png');
+               background-repeat: no-repeat;
+               background-size: contain;
+               background-position: top;
+   /* color: black; */
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  width: 100%;
+
+}
+
+.forMen-search{
+   padding-top: 10px;
+   display: flex;
+   gap: 10px;
+   box-sizing: border-box;
+   justify-content: center;
+}
+.map{
+   height: 10px;
+   width: 10px;
+}
+.search-bar{
+   display: flex;
+}
+.language{
+   display: flex;
+   align-items: center;
+   background: white;
+   padding: 2px 5px;
+   border-radius: 4px;
+}
+.search-bar input{
+   padding:7px ;
+   outline: 0;
+   border: none;
+   border-radius: 4px;
+}
+.search-bar-icon-wrapper{
+   background: black;
+   padding: 2px 6px;
+   display: flex;
+   align-items: center;
+}
+.language-select #language-categpories{
+   border: 0;
+   outline: 0;
+}
+.forMen-search #men-categories{
+   border: 0;
+   outline: 0;
+   background: orangered;
+   color: whitesmoke;
+   padding: 2px;
+   font-size: small;
+   border-radius: 4px;
+}
+.forMen-info{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-top: 50px;
+  
+}
+.forMen-info .forMen-info-message{
+   color: #fff;
+   font-weight: 900;
+   font-size: 3em ;
+   display: flex;
+   flex-wrap: wrap;
+}
+.forMen-info button{
+   padding: 5px 10px;
+   border: 0;
+   border-radius: 3px;
+   margin-top: 0;
+   background: rgb(197, 54, 2);
+   color: white;
+}
+.main{
+   margin: 3em 6em;
+}
+.products img{
+   height: 190px;
+   width: 180px;
+}
+.all-sections{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items:center;
+ margin: 3em 0;
+
+}
+.product-wrapper{
+   padding: 5px;
+   border-radius: 5px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 15px;
+   box-shadow: 0px 0px 15px 10px rgb(230, 228, 228);
+   background: rgb(230, 228, 228);
+  
+}
+.product-title{
+   margin-bottom: 0;
+}
+.products {
+   background: white;
+   border-radius: 10px;
+   
+}
+.product-tag{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.product-tag p{
+   font-weight: bolder;
+   font-size: small;
+}
+.product-price {
+   display: flex;
+   gap: 2px;
+}
+.product-tag .product-price span p{
+   font-size: 13px;
+}
+.product-tag .product-price .price p{
+   color: rgba(255, 166, 0, 0.741);
+}
+.product-action{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 5px 10px;
+}
+.product-action button{
+font-size: 7px;
+border: 0;
+padding: 4px;
+border-radius: 3px;
+background: rgba(255, 166, 0, 0.741) ;
+transition: all 0.1s ease-out;
+}
+.product-action button:hover{
+   background: rgba(192, 126, 4, 0.741) ;
+   color: #fff;
+   transform: scale(1.1);
+   cursor: pointer;
+  
+}
+.product-action a p{
+   font-size: 10px;
+}
+/* carousel section styling */
+.carousel-main container{
+  
+   width: 100%;
+
+ 
+}
+.carousel-arrows img{
+   cursor: pointer;
+   height: 1em;
+   width: 1em;
+   background: rgb(228, 227, 227);
+   padding: 0.5em;
+}
+.carousel{
+   height: 40em;
+   margin: 0 auto;
+   width: 100%;
+   position: relative;
+}
+.carousel.quotes{
+   height: 40em;
+   position: relative;
+   width: 100%;
+}
+.carousel-item{
+   margin: 1em auto;
+   opacity: 0;
+   list-style: none;
+   padding: 1em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+      top: 0;
+      left: -4%;
+      transform: translate(calc(100% + 12em) scale(.6));
+      transition: transform 1.5s cubic-bezier(.7, -.3,.2,1.3)
+                  opacity .5s .6s ease-out;
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 35em;
+      border-radius: 1em;
+     
+   box-shadow: 0px 0px 15px 5px rgb(230, 228, 228) inset;
+}
+.carousel-item p{
+   color: wheat;
+   font-weight: bolder;
+   font-size: 1.5em;
+   text-align: center;
+}
+.carousel-item p:nth-child(2){
+   margin-left: 3em;
+   font-style: italic;
+   
+}
+.item-img1{
+   background-image: linear-gradient(to right, rgba(238, 211, 74, 0.268), rgba(35, 229, 233, 0.186)), url('../carousel/images-6.jpeg')
+}
+.item-img2{
+   background-image: linear-gradient(to right, rgba(196, 67, 67, 0.548), rgba(196, 67, 67, 0.383)), url('../carousel/images7.jpeg');
+}
+.item-img3{
+   background-image: linear-gradient(to right, rgba(171, 9, 186, 0.079), rgba(239, 17, 191, 0.194)), url('../carousel/images8.jpeg');
+}
+.carousel-arrows{
+   margin: 0;
+   width: 100%;
+   display:flex;
+   gap: 2em;
+   justify-content:center;
+   text-align: center;
+  
+}
+.carousel-item.previous{
+ opacity: .5;
+ transform: translate(-150%);
+}
+.carousel-item.current{
+ opacity: 1;
+ transform: translate(calc(2% - 0.5em), 0);
+}
+.carousel-item.next{
+   opacity: 0;
+   transform:translate(calc(100% + 12em)) ;
+}
+/*   <section class="carousel-main container">
+            <section class="carousel-wrapper">
+               <ul class="carousel" id="carousel">
+                  <li class="carousel-item previous" style="background-image: url(carousel\images6.jpeg);">
+                     <p class="q uote">Fashion is about dreaming <br> and <br> making others dream</p>
+                     <p class="author">-DONATELLA VERSACE-</p>
+                  </li>
+                  <li class="carousel-item current" style="background-image: url(arousel\images7.jpeg);">
+                     <p class="quote">I love Fashion <br> and <br> that is how i express myself</p>
+                     <p class="author">-VICTORIA BECKHAM-</p>
+                  </li>
+                  <li class="carousel-item next" style="background-image: url(carousel\images8.jpeg);">
+                     <p class="quote">"Fashion is the armor to survive the reality of everyday life"</p>
+                     <p class="author">-BILL CUNNINGHAM-</p>
+                  </li>
+               </ul>
+            </section>
+            <section class="carousel-arrows">
+              <img src="carousel\left-arrow.png" alt="">
+              <img src="carousel\right-arrow.png" alt="">
+            </section>
+        </section>*/
+@media screen and (max-width:600px){
+   .forMen-info .forMen-info-message{
+      font-size: 2em ;
+   }
+   .forMen-search{
+      gap: 4px;
+     
+   }
+   .language-select #language-categpories{
+      font-size:10px ;
+      padding: 1px;
+   }
+   .forMen-search #men-categories{
+      padding: 1px;
+      font-size: 10px;
+
+   }
+   .search-bar input{
+      padding: 1px;
+   }
+  .search-bar-icon-wrapper{
+      padding: 0px px;
+   }
+   .language{
+      padding: 1px;
+      box-sizing: border-box;
+   }
+   /* twickinking the product part */
+
+   .product-wrapper{
+
+      grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+     
+     
+   }
+}
+

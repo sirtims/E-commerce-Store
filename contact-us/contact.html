@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact Us</title>
+   <link rel="stylesheet" href="..\styles-folder\style.css">
+   <link rel="stylesheet" href="..\styles-folder\animation.css">
+   <link rel="stylesheet" href="..\styles-folder\categories.css">
+   <link rel="stylesheet" href="..\styles-folder\contact.css">
+</head>
+<body>
+   <header class="header-section">
+      <div class="header-nav-wrapper">
+         <div class="header-logo-wrapper">
+            <div class="logo">DNK</div>
+            <div class="logo-menu">
+               <ul class="logo-list">
+                  <li class="slide-right slide-right-one"><a href="#">EVERYTHING</a></li>
+                  <li class="slide-right slide-right-two"><a href="#">WOMEN</a></li>
+                  <li class="slide-right slide-right-three"><a href="#">ACCESORIES</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="header-nav-links">
+            <ul class="nav-link">
+               <li class="slide-left slide-left-one"><a href="#">ABOUT</a></li>
+               <li class="slide-left slide-lef-two"><a href="\index.html">HOME</a></li>
+            </ul>
+            <div class="status">
+               <p class="price"></p>
+               <img src="" alt="">
+               <img src="" alt="">
+            </div>
+            <div class="hambuger">
+               <div class="line1 lines"></div>
+               <div class="line2 lines"></div>
+               <div class="line3 lines"></div>
+            </div>
+         </div>
+         <div class="drop-down-menu">
+            <div class="logo-menu">
+               <ul class="drop">
+                  <li><a class="menu-bar" href="#">EVERYTHING</a></li>
+                  <li><a class="menu-bar" href="#">WOMEN</a></li>
+                  <li><a class="menu-bar" href="#">ACCESORIES</a></li>
+                  <li><a class="menu-bar" href="#">ABOUT</a></li>
+                  <li><a class="menu-bar" href="\index.html">HOME</a></li>
+               </ul>
+            </div>
+            <div class="status">
+               <p class="price"></p>
+               <img src="" alt="">
+               <img src="" alt="">
+            </div>
+         </div>
+      </div>
+   </header>
+   <main class="main-section">
+      <div class="container">
+         <div class="form-space">
+            <form action="/" id="form" >
+               <h1>Contact Us</h1>
+               <section class="input-fields">
+                  <div class="input-control">
+                     <input class="full-name-input inputs" type="text" id="Full-name" placeholder="Full Name" name="Name">
+                     <div class="input-error-message" id="input-err-message"></div>
+                  </div>
+                  <div class="input-control">
+                     <input class="email-input inputs" type="text" id="email" placeholder="Email" name="email">
+                     <div class="input-error-message" id="input-err-message"></div>
+                  </div>
+                  <textarea class="text-area-input inputs" name="message" id="message" rows="5" placeholder="message"></textarea>
+                  <div class="erro"></div>
+               </section>
+               <button type="submit" id="contact-btn" name="submit">Contact Us</button>
+            </form>
+         </div>
+      </div>
+   </main>
+   <footer class="footer-container">
+      <div class="copyright">
+         <p>Copyright&copy;2023 Tim's-store. Powered by Tim's-store</p>
+      </div>
+      <div class="social-handles">
+         <a href="#"><img src="../image\facebook.png" alt="facebook icon"></a>
+         <a href="#"><img src="../image\instagram.png" alt="instagram icon"></a>
+         <a href="#"><img src="../image\twitter.png" alt="twitter icon"></a>
+         <a href="#"><img src="../image\whatsapp.png" alt="whatsapp icon"></a>
+         <a href="#"><img src="../image\youtube.png" alt="youtube icon"></a>
+      </div>
+   </footer>
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script src="\common.js"></script>
+   <script src="sendEmail.js"></script>
+   <script src="\index.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.forMen-info-section{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 5em;
+   background: linear-gradient(to right, rgba(4, 65, 162, 0.552), rgba(250, 171, 25, 0.338)),
+               url('images-for-men/benjamin-rascoe-Ci_fZ5cL9Jo-unsplash-removebg-preview.png');
+               background-repeat: no-repeat;
+               background-size: contain;
+               background-position: top;
+   /* color: black; */
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  width: 100%;
+
+}

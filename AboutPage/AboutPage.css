@@ -1,0 +1,234 @@
+body{
+   font-family: cursive;
+   margin-top: 6.5em;
+  
+   background: linear-gradient(-35deg, rgba(10, 10, 255, 0.805), rgba(191, 190, 188, 0.486)), 
+   url(about-images/images7.jpeg);
+   background-position:top ;
+   background-repeat: no-repeat;
+   background-size:cover; 
+  
+}
+.about-img{
+   background: rgba(113, 193, 242, 0.883);
+   position: relative;
+   border-radius: 100px;
+   margin: 12px;
+   padding: 30px;
+   
+}
+.about-img img{
+   height: 500px;
+   border-radius: 50px;
+   box-sizing:content-box;
+  
+}
+.about-container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.about-info{
+   font-size: 15px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   margin: 10px;
+   padding: 1em;
+   border-radius: 5px;
+   position: relative;
+   
+
+}
+.aboutDetails{
+   left: -400px;
+   top: -270px;
+  
+}
+.abboutMisionDetails{
+   top: -150px;
+   left: -100px;
+ 
+
+}
+.aboutGoalsDetails{
+   left: -390px;
+   bottom: -260px;
+  
+}
+.aboutDetails,
+.abboutMisionDetails,
+.aboutGoalsDetails{
+   margin-bottom: 4px;
+   box-shadow:0px 0px 16px black ;
+   position: absolute;
+   border-radius: 5px;
+   width: 250px;
+   padding: 0.7em;
+   border-left: 2px solid rgb(255, 174, 24);
+}
+.about-header{
+   color: rgb(255, 174, 24);
+}
+.about-header-container{
+   position: relative;
+}
+.about-header-line{
+   position: absolute;
+   bottom: -4px;
+   right:70px;
+   left: 70px;
+   height: 3px;
+   background: rgb(255, 174, 24) ;
+   border-radius: 4px;
+}
+@media screen and (max-width: 1300px){
+  
+   .about-img img{
+      height: 400px;
+    
+     
+   }
+   .about-img{
+      margin-left: -7em;
+   }
+      
+   .aboutDetails,
+   .abboutMisionDetails,
+   .aboutGoalsDetails{
+      margin-bottom: 4px;
+      box-shadow:0px 0px 16px black ;
+      font-size: 0.9em;
+      position: absolute;
+      border-radius: 5px;
+      width: 230px;
+     
+      padding: 0.9em;
+   }
+   .aboutDetails{
+      left: -400px;
+      top: -230px;
+     
+   }
+   .abboutMisionDetails{
+      top: -150px;
+      left: -100px;
+    
+   
+   }
+   .aboutGoalsDetails{
+      left: -390px;
+      bottom: -220px;
+     
+   }
+
+}
+@media screen and (max-width: 1060px){
+   .about-img img{
+      height: 400px;
+    
+     
+   }
+ 
+      
+   .aboutDetails,
+   .abboutMisionDetails,
+   .aboutGoalsDetails{
+      margin-bottom: 4px;
+      box-shadow:0px 0px 16px black ;
+      font-size: 0.78em;
+      width: 210px;
+      padding: 0.9em;
+   }
+   .aboutDetails{
+      left: -320px;
+      top: -200px;
+     
+   }
+   .abboutMisionDetails{
+      top: -100px;
+      left: -80px;
+    
+   
+   }
+   .aboutGoalsDetails{
+      left: -320px;
+      bottom: -180px;
+     
+   }
+}
+@media screen and (min-width:600px) and (max-width: 900px){
+   body{
+      height: 100vh;
+   }
+   .about-img img{
+      height: 500px;
+   }
+ 
+   .about-container{
+      height: 100vh;
+   } 
+   .aboutDetails,
+   .abboutMisionDetails,
+   .aboutGoalsDetails{
+      margin-bottom: 4px;
+      box-shadow:0px 0px 16px black ;
+      font-size: 1em;
+      width: 200px;
+      padding: 0.9em;
+     
+   }
+   .aboutDetails{
+      left: -320px;
+      top: -450px;
+     
+   }
+   .abboutMisionDetails{
+      top: -100px;
+      left: -150px;
+    
+   
+   }
+   .aboutGoalsDetails{
+      left: -320px;
+      bottom: -400px;
+     
+   }
+   .about-img{
+      background: none;
+   }
+}
+@media screen and (max-width: 500px){
+   .about-img img{
+      height: 400px;
+      margin-left: -5em;
+      background: linear-gradient(100deg,  rgb(255, 174, 24),rgba(245, 245, 220, 0.359));
+   }
+   .about-container{
+      align-items: start;
+      box-sizing: border-box;
+      /* height: 100vh; */
+      margin-top: 5em;
+      padding-right: 5em;
+      margin-right: 5em ;
+   }
+   .aboutDetails,
+   .abboutMisionDetails,
+   .aboutGoalsDetails{
+      background: white;
+      color: rgb(126, 116, 116);
+      font-size: 0.8em;
+      width: 150px;
+      position: static;
+      margin-bottom: 4em;
+   }
+   .about-img{
+      background: none;
+      margin-right: -3em;
+      opacity: 0;
+      
+   }
+
+  
+
+}
