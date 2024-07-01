@@ -15,7 +15,7 @@ $(function(){
       }
    }, 4000)
    
-   function showNextItem(){
+   function showNextItem(){ // TO SHOW NEXT ITEM
       if(currentIndex === lastIndex){
          currentIndex = 0
       }
@@ -24,16 +24,16 @@ $(function(){
       }
       updateState(currentIndex)
    }
-   function showItem(event){
-      let target 
-      if($(event.target).hasClass('arrow')){
-         target = $(event.target)
-      } else{
-         target = $(event.target).parent()
-      }
-      let index =  $('.arrow').index(target)
-      updateState(index)
-   }
+   // function showItem(event){ //BUTTON TO SHOW ITEMS
+   //    let target 
+   //    if($(event.target).hasClass('arrow')){
+   //       target = $(event.target)
+   //    } else{
+   //       target = $(event.target).parent()
+   //    }
+   //    let index =  $('.arrow').index(target)
+   //    updateState(index)
+   // }
    function updateState(index){
       prevIndex = index ===0? lastIndex: index - 1
       currentIndex = index
@@ -49,9 +49,6 @@ $(function(){
       $(allItems[prevIndex]).addClass('previous')
       $(allItems[currentIndex]).addClass('current')
       $(allItems[nextIndex]).addClass('next')
-
-
-
    }
    function showFromArrow(event){
       let index = $('#carousel-arrows arrow').index(event.target)

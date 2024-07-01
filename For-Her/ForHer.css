@@ -1,16 +1,21 @@
-.forMen-info-section{
+.forMen-info-section {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 5em;
   background: linear-gradient(to right, rgba(209, 35, 192, 0.552), rgba(250, 171, 25, 0.338)),
-              url('Images-for-her/photo-1599662875272-64de8289f6d8-removebg-preview.png');
-              background-repeat: no-repeat;
-              background-size: contain;
-              background-position: top;
+    url('Images-for-her/photo-1599662875272-64de8289f6d8-removebg-preview.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
   /* color: black; */
   height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
- width: 100%;
+  width: 100%;
 
+}
+
+.product img {
+  object-fit: cover;
+  width: 100%;
 }
